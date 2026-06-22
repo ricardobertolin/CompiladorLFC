@@ -1,0 +1,8 @@
+int ledPin = 13
+int lightValue = 1
+PIN_MODE(13, OUTPUT)
+IF(lightValue == 1){
+DIGITAL_WRITE(13, 1)
+}ELSE{
+DIGITAL_WRITE(13, 0)
+}
